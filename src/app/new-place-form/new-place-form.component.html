@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm" >
+  <mat-form-field class="example-full-width" required>
+    <input 
+      matInput 
+      placeholder="City"
+      name="city"
+      ngModel >
+  </mat-form-field>
+  <button type="submit" mat-button color="accent">Add</button>  
+</form>

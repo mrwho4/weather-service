@@ -1,0 +1,124 @@
+{
+    "places": [
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Buenos Aires",
+            "temperature": "28º",
+            "description": "Despejado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        },
+        {
+            "name": "Nueva York",
+            "temperature": "15º",
+            "description": "Parcialmente nublado",
+            "icon": "icon"
+        }
+    ]
+}

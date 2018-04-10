@@ -3,6 +3,7 @@ export class Place {
         private name: string,
         private temperature?: string,
         private description?: string,
-        private icon?: string
+        private icon?: string,
+        public id?: string
     ) {}
 }

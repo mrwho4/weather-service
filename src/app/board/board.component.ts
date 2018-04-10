@@ -14,18 +14,20 @@ export class BoardComponent implements OnInit {
   displayedColumns = ['select', 'city', 'temperature', 'description', 'icon'];
   places: Place[];
   dataSource;
+  loading = true;
 
-  @ViewChild(MatSort) sort: MatSort;
+  // @ViewChild(MatSort) sort: MatSort;
   constructor(
     private placesService: PlacesService
   ) { }
 
   ngOnInit() {
-    this.placesService.getPlaces().subscribe((data: Place[]) => {
-      console.log('data', data);
-      this.places = data;
+    this.placesService.getPlaces()
+      .subscribe((data: Place[]) => {
+        this.places = data,
+        this.dataSource = new MatTableDataSource(this.places);
+        this.loading = false;
     });
-    this.dataSource = new MatTableDataSource(this.places);
   }
 
   selection = new SelectionModel<Place>(true, []);
@@ -44,8 +46,17 @@ export class BoardComponent implements OnInit {
         this.dataSource.data.forEach(row => this.selection.select(row));
   }
 
-  ngAfterViewInit() {
-    this.dataSource.sort = this.sort;
+  // ngAfterViewInit() {
+  //   this.dataSource.sort = this.sort;
+  // }
+
+  onUpdatePlace(event: Place) {
+    this.placesService
+      .addPlace(event)
+      .subscribe((data: Place) => {
+        this.places.unshift(data);
+      })
+    console.log( 'desde el padre' ,event);
   }
 
 }

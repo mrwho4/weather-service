@@ -13,6 +13,8 @@ import { PlaceDetailComponent } from './place/detail/place-detail.component';
 import { BoardComponent } from './board/board.component';
 import { NewPlaceFormComponent } from './new-place-form/new-place-form.component';
 
+import { PlaceViewerComponent } from './containers/place-viewer/place-viewer.component'
+
 // services
 import { PlacesService } from './places.service';
 
@@ -23,7 +25,8 @@ import { PlacesService } from './places.service';
     PlaceComponent,
     PlaceDetailComponent,
     BoardComponent,
-    NewPlaceFormComponent
+    NewPlaceFormComponent,
+    PlaceViewerComponent
   ],
   imports: [
     BrowserModule,

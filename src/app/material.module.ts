@@ -6,7 +6,8 @@ import {
   MatCheckboxModule,
   MatButtonModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatProgressSpinnerModule
 } from '@angular/material';
 
 
@@ -17,7 +18,8 @@ const modules = [
   MatCheckboxModule,
   MatButtonModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatProgressSpinnerModule
 ]
 
 @NgModule({

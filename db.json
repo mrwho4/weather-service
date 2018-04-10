@@ -132,6 +132,59 @@
       "description": "sunny",
       "icon": "icon",
       "id": 21
+    },
+    {
+      "name": "Villa Luzuriaga",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 22
+    },
+    {
+      "name": "Viila Martelli",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 23
+    },
+    {
+      "name": "La Plata",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 24
+    },
+    {
+      "name": "Isla de Man",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 25
+    },
+    {
+      "name": "Catalunya",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 26
+    },
+    {
+      "name": "San Francisco",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 27
+    },
+    {
+      "name": "Falicia",
+      "id": 28
+    },
+    {
+      "name": "Villa Diamante",
+      "temperature": "25º",
+      "description": "sunny",
+      "icon": "icon",
+      "id": 29
     }
   ]
 }

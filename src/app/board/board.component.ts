@@ -8,7 +8,8 @@ import { Place } from '../place/place.model';
 @Component({
   selector: 'wb-board',
   templateUrl: './board.component.html',
-  styleUrls: ['./board.component.scss']
+  styleUrls: ['./board.component.scss'],
+  providers: [ PlacesService ]
 })
 export class BoardComponent implements OnInit {
   displayedColumns = ['select', 'city', 'temperature', 'description', 'icon'];

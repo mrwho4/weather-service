@@ -29,12 +29,13 @@ export class PlacesService {
   }
 
   public addPlace(place: Place) {
+    const body = JSON.stringify(place);
     const headers = new Headers({ 'Content-Type': 'application/json' });
     headers.append('Accept', 'application/json');
     const options = new RequestOptions({ headers: headers });
 
     return this.http
-      .post(this.PLACES_API, place, options)
+      .post(this.PLACES_API, body, options)
       .map((response: Response) => {
         response.json()
       })
@@ -43,14 +44,14 @@ export class PlacesService {
 
   updatePlace(place: Place) {
     return this.http
-      .put(`${this.PLACES_API}/${place.id}`, place)
+      .put(`${this.PLACES_API}/${place._id}`, place)
       .map((response: Response) => response.json())
       .catch((error: any) => Observable.throw(error.json()));
   }
 
   deletePlace(place: Place) {
     return this.http
-      .delete(`${this.PLACES_API}/${place.id}`)
+      .delete(`${this.PLACES_API}/${place._id}`)
       .map((response: Response) => response.json())
       .catch((error: any) => Observable.throw(error.json()));
   }

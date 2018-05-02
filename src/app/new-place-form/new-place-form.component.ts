@@ -27,9 +27,11 @@ export class NewPlaceFormComponent implements OnInit {
     // this.update.emit(place);
     
     // console.log('desde el hijo' , place);
+    
     this.placeService.addPlace(place)
       .subscribe(
-        ({id}) => console.log(id)
+        ({_id}) => console.log(_id),
+        error => console.log(error)
       );
 
       form.resetForm();
